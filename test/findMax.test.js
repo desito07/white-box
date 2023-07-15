@@ -6,9 +6,9 @@ const expect = chai.expect;
 
 describe.only('Check findMax1 function with three positive values', () => {
   it('when first is biggest', () => {
-    expect(findMax(10, 15, 20)).to.equal(20);
+    expect(findMax(100, 1, 222)).to.equal(222);
   });
   it('when second is biggest', () => {
-    expect(findMax(0, 0, 0)).to.equal(0);
+    expect(findMax(1, 5, 150)).to.equal(150);
   });
 });
